@@ -5,7 +5,6 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import TypeWriter from '../components/TypeWriter';
 import { profile } from '../data/profile';
-import resume from '../assets/Asror_Qobulov_Resume.pdf';
 
 export default function Home() {
   const { t } = useTranslation();
@@ -60,7 +59,7 @@ export default function Home() {
               <Mail size={16} />
               {t('home.cta_contact')}
             </Link>
-            <a href={resume} download className="btn-ghost">
+            <a href={"https://github.com/qobulovasror/cv/blob/main/Asror_Qobulov.pdf"} target="_blank" className="btn-ghost">
               <Download size={16} />
               CV
             </a>

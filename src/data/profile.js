@@ -49,7 +49,6 @@ export const skills = {
 export const experience = [
   { key: 'software engineer', period: '2025 — present', endNow: true },
   { key: 'freelance', period: '2023 — 2024', endNow: false },
-  { key: 'internship', period: '2022 — 2023', endNow: false },
 ];
 
 export const education = [

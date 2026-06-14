@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import PageHeader from '../components/PageHeader';
 import { profile } from '../data/profile';
-import resume from '../assets/Asror_Qobulov_Resume.pdf';
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
@@ -57,7 +56,7 @@ export default function About() {
             {t('about.p2')}
           </p>
           <div className="flex flex-wrap gap-3 mt-6">
-            <a href={resume} download className="btn-primary">
+            <a href="https://github.com/qobulovasror/cv/blob/main/Asror_Qobulov.pdf" target="_blank" className="btn-primary">
               <Download size={16} /> {t('about.download_cv')}
             </a>
             <Link to="/contact" className="btn-secondary">

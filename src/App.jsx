@@ -12,8 +12,7 @@ const Home = lazy(() => import('./pages/Home'));
 const About = lazy(() => import('./pages/About'));
 const Resume = lazy(() => import('./pages/Resume'));
 const Portfolio = lazy(() => import('./pages/Portfolio'));
-const Blog = lazy(() => import('./pages/Blog'));
-const BlogPost = lazy(() => import('./pages/BlogPost'));
+const Tutorials = lazy(() => import('./pages/Tutorials'));
 const Contact = lazy(() => import('./pages/Contact'));
 
 function PageTransition({ children, pathKey }) {
@@ -54,8 +53,7 @@ export default function App() {
               <Route path="/about" element={wrap(<About />)} />
               <Route path="/resume" element={wrap(<Resume />)} />
               <Route path="/portfolio" element={wrap(<Portfolio />)} />
-              <Route path="/blog" element={wrap(<Blog />)} />
-              <Route path="/blog/:slug" element={wrap(<BlogPost />)} />
+              <Route path="/tutorials" element={wrap(<Tutorials />)} />
               <Route path="/contact" element={wrap(<Contact />)} />
             </Routes>
           </Suspense>

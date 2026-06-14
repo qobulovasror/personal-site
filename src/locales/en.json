@@ -4,7 +4,7 @@
     "about": "About",
     "resume": "Resume",
     "portfolio": "Projects",
-    "blog": "Blog",
+    "tutorials": "Tutorials",
     "contact": "Contact"
   },
   "home": {
@@ -104,14 +104,17 @@
       "desktop": "Desktop"
     }
   },
-  "blog": {
-    "title": "Blog",
-    "subtitle": "Thoughts & tutorials",
-    "heading": "Latest Articles",
-    "read_more": "Read more",
-    "back": "Back to all posts",
-    "min_read": "min read",
-    "no_posts": "No posts yet. Check back soon!"
+  "tutorials": {
+    "title": "Tutorials",
+    "subtitle": "Learn with me",
+    "visit": "Open tutorial",
+    "no_items": "Nothing here yet. Check back soon!",
+    "items": {
+      "bashlings": {
+        "title": "Bashlings — Bash & Linux",
+        "description": "A full Uzbek-language ecosystem for learning Linux & Bash, modeled on the Rust Book + Rustlings: a 16-chapter book, 101 hands-on exercises, and the bashlings CLI runner written in Rust."
+      }
+    }
   },
   "contact": {
     "title": "Contact",

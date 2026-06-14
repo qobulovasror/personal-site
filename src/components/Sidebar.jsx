@@ -7,7 +7,7 @@ import {
   User,
   FileText,
   Briefcase,
-  BookOpen,
+  GraduationCap,
   Mail,
   X,
 } from 'lucide-react';
@@ -22,7 +22,7 @@ const items = [
   { to: '/about', icon: User, key: 'about' },
   { to: '/resume', icon: FileText, key: 'resume' },
   { to: '/portfolio', icon: Briefcase, key: 'portfolio' },
-  { to: '/blog', icon: BookOpen, key: 'blog' },
+  { to: '/tutorials', icon: GraduationCap, key: 'tutorials' },
   { to: '/contact', icon: Mail, key: 'contact' },
 ];
 

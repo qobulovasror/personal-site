@@ -4,7 +4,7 @@
     "about": "Men haqimda",
     "resume": "Rezyume",
     "portfolio": "Loyihalar",
-    "blog": "Blog",
+    "tutorials": "Qo'llanmalar",
     "contact": "Aloqa"
   },
   "home": {
@@ -104,14 +104,17 @@
       "desktop": "Desktop"
     }
   },
-  "blog": {
-    "title": "Blog",
-    "subtitle": "Fikrlar va qo'llanmalar",
-    "heading": "So'nggi maqolalar",
-    "read_more": "Davomini o'qish",
-    "back": "Barcha postlarga qaytish",
-    "min_read": "daqiqalik o'qish",
-    "no_posts": "Hali postlar yo'q. Tez orada qaytib keling!"
+  "tutorials": {
+    "title": "Qo'llanmalar",
+    "subtitle": "Men bilan o'rganing",
+    "visit": "Qo'llanmani ochish",
+    "no_items": "Hozircha bu yerda hech narsa yo'q. Tez orada qaytib keling!",
+    "items": {
+      "bashlings": {
+        "title": "Bashlings — Bash va Linux",
+        "description": "Linux va Bash'ni o'rganish uchun o'zbek tilidagi to'liq ekotizim. Rust-book + Rustlings modelida: 16 bobli kitob, 101 ta amaliy mashq va Rust tilida yozilgan bashlings CLI runner."
+      }
+    }
   },
   "contact": {
     "title": "Aloqa",
